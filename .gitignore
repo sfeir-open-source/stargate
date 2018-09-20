@@ -1,0 +1,20 @@
+.DS_STORE
+
+/dist/
+bazel-*
+e2e_test.*
+node_modules
+bower_components
+
+# Include when developing application packages.
+pubspec.lock
+.c9
+.idea/
+.settings/
+*.swo
+.bazelrc
+.vscode
+
+# Ignore npm/yarn debug log
+npm-debug.log
+yarn-error.log
