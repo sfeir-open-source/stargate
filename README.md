@@ -1,3 +1,3 @@
-# nox
+# Stargate
 
-This repository hots all the projects (everything) released by SFEIR OSPO.
+This repository hots all the projects (and beyond) released by SFEIR OSPO.
