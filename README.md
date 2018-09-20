@@ -1,3 +1,3 @@
 # Stargate
 
-This repository hots all the projects (and beyond) released by SFEIR OSPO.
+This repository hosts all the projects (and beyond) released by SFEIR OSPO.
