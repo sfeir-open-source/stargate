@@ -1,0 +1,14 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "go_default_library",
+    srcs = ["spreadsheet.go"],
+    importpath = "github.com/example/project/src/gourmet/gapps",
+    visibility = ["//visibility:public"],
+    deps = [
+        "@org_golang_google_appengine//urlfetch:go_default_library",
+        "@org_golang_x_net//context:go_default_library",
+        "@org_golang_x_oauth2//:go_default_library",
+        "@org_golang_x_oauth2//google:go_default_library",
+    ],
+)
