@@ -12,7 +12,6 @@ pubspec.lock
 .idea/
 .settings/
 *.swo
-.bazelrc
 .vscode
 
 # Ignore npm/yarn debug log

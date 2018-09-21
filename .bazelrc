@@ -1,0 +1,10 @@
+# Print all the options that apply to the build.
+# This helps us diagnose which options override others
+# (e.g. /etc/bazel.bazelrc vs. tools/bazel.rc)
+build --announce_rc
+
+# Create dist/bin symlink to $(bazel info bazel-bin)
+build --symlink_prefix=dist/
+
+# More details on failures
+build --verbose_failures=true
